@@ -1,4 +1,4 @@
-def makeDict(a, b):
+def make_dict(a, b):
     dic = {}
     for i in range(len(a)):
         dic[a[i]] = b[i] if i < len(b) else None
@@ -7,7 +7,7 @@ def makeDict(a, b):
 
 def main():
     a, b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], ["a", "b", "c"]
-    dic = makeDict(a, b)
+    dic = make_dict(a, b)
     print(dic)
 
 
